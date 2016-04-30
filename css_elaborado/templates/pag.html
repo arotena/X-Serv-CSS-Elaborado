@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Cms Put</title>
+</head>
+<body>
+  <h1>Contenido:</h1>
+  <form action = "" method="POST">
+        <br>Name: <input type="text" name="recurso">
+        <br>Contenido: <input type="text" name="contenido">
+        <br><input type="submit" value="Save">
+  </form>
+  <h1>Css:</h1>
+  <form action = "/css/" method="POST">
+        <br>Color de fondo: <input type="text" name="css">
+        <br><input type="submit" value="Add">
+  </form>
+  {{contenido|safe}}
+
+
+</body>
+</html>
